@@ -3,5 +3,5 @@
   become: true
   gather_facts: false
 
-tasks:
-  -name: probando
+  tasks:
+  - name: probando
