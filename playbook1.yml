@@ -5,3 +5,6 @@
 
   tasks:
   - name: probando
+    yum:
+      name=vim
+      state=installed
